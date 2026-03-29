@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 APP_CONFIG = {
-    "gemini_model": os.getenv("GEMINI_MODEL", "gemini-1.5-flash"),
+    "gemini_model": os.getenv("GEMINI_MODEL", "gemini-2.0-flash-lite"),
     "temperature": float(os.getenv("TEMPERATURE", "0.2")),
 }
 

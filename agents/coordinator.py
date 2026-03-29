@@ -24,7 +24,7 @@ class CoordinatorAgent:
                 "Set GEMINI_API_KEY (or GOOGLE_API_KEY) environment variable."
             )
         self.client = genai.Client(api_key=api_key)
-        self.model = "gemini-1.5-flash"
+        self.model = "gemini-2.0-flash-lite"
         logger.info(f"CoordinatorAgent initialised with model={self.model}")
 
     # ── public ────────────────────────────────────────────────────────────────
